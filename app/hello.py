@@ -13,7 +13,7 @@ input_evaluations = []
 
 @app.route('/')
 def top_page():
-    return render_template('hello.html', title='Recommend Your OSHIMEN')
+    return render_template('index.html', title='Recommend Your OSHIMEN')
 
 
 @app.route('/like')
