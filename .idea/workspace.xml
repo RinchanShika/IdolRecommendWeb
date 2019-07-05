@@ -4,9 +4,40 @@
     <list default="true" id="51d22333-ae72-4a39-b8ce-f15d86ba4593" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/IdolRecommendWebDB" beforeDir="false" afterPath="$PROJECT_DIR$/app/IdolRecommendWebDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dataAccessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dataAccessor.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231118.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231119.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231121.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231122.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231169.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231170.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231172.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231174.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231179.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231180.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231181.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231185.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231187.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231188.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231190.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231234.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231235.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231239.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231240.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231257.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231265.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231268.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231271.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231276.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan2019070100123178.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/displayImg.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/displayImg.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/watchIdols.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/watchIdols.html" afterDir="false" />
@@ -20,45 +51,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/watchIdols.html">
+        <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
+        <entry file="file://$PROJECT_DIR$/app/templates/hello.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="68">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/static/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/static/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
-              <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="143">
+              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,8 +92,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/js/displayImg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/watchIdols.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,9 +142,9 @@
         <option value="$PROJECT_DIR$/app/service.py" />
         <option value="$PROJECT_DIR$/app/dataAccessor.py" />
         <option value="$PROJECT_DIR$/app/templates/hello.html" />
+        <option value="$PROJECT_DIR$/app/static/css/style.css" />
         <option value="$PROJECT_DIR$/app/templates/layout.html" />
         <option value="$PROJECT_DIR$/app/templates/watchIdols.html" />
-        <option value="$PROJECT_DIR$/app/static/css/style.css" />
         <option value="$PROJECT_DIR$/app/hello.py" />
         <option value="$PROJECT_DIR$/app/static/js/displayImg.js" />
       </list>
@@ -143,6 +187,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IdolRecommendWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IdolRecommendWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IdolRecommendWeb" type="b2602c69:ProjectViewProjectNode" />
@@ -296,25 +347,32 @@
       <option name="project" value="LOCAL" />
       <updated>1562252266558</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ugoiteyo">
+      <created>1562324160044</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562324160044</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26596606" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26596606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32978722" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -352,7 +410,8 @@
     <MESSAGE value="復帰" />
     <MESSAGE value="db" />
     <MESSAGE value="aiueo" />
-    <option name="LAST_COMMIT_MESSAGE" value="aiueo" />
+    <MESSAGE value="ugoiteyo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ugoiteyo" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
@@ -384,20 +443,45 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/js/displayImg" />
+    <entry file="file://$PROJECT_DIR$/app/static/img/img1/rinchan5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/hello.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="68">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/displayImg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/watchIdols.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
@@ -406,31 +490,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/displayImg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        <state relative-caret-position="143">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

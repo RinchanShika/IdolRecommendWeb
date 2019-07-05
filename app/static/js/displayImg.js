@@ -1,5 +1,32 @@
 $(document).ready(function(){
-    alert('うごいて');
+    alert('呼ばれたよ～')
+
+    $.ajax({
+        url:'http://l27.0.0.1:5000/getFirstList',
+        dataType: "json"
+        type:'GET',
+        data:{
+        }
+        })
+        // Ajaxリクエストが成功した時発動
+        .done( (data) => {
+            alert(data);
+            for( var = i; i < data[0].length; i++){
+                put_html = '<div class="avatar"  style="display: block; background-image: url(' + data[1][i] + ')"></div>';
+                $('.buddy').eq(i).html(data);
+            }
+            console.log(data);
+        })
+        // Ajaxリクエストが失敗した時発動
+        .fail( (data) => {
+            alert(data);
+            console.log(data);
+        })
+        // Ajaxリクエストが成功・失敗どちらでも発動
+        .always( (data) => {
+
+        });
+
 
     $(".buddy").on("swiperight",function(){
       $(this).addClass('rotate-left').delay(700).fadeOut(1);
@@ -25,5 +52,4 @@ $(document).ready(function(){
         $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
     }
   });
-
 });
