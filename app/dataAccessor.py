@@ -62,14 +62,19 @@ def add_evaluationRow():
     return id
 
 
-# 5件ごとくらいに受け取って登録する
-# 評価は{name : grade,……}のdictionary型resultで与えられる
-def add_evaluation(result, id):
+def add_evaluation(name, eval, id):
     dbname = 'IdolRecommendWebDB'
     with closing(sqlite3.connect(dbname)) as conn:
         c = conn.cursor()
-        for key in result.keys():
-            update_sql = "update evaluation set " + str(key) + " = '" + str(result[key]) + "' where id = " + str(id)
-            c.execute(update_sql)
+        update_sql = 'update evaluation set ' + name + ' = ' + str(eval) + ' where id = ' + str(id)
+        c.execute(update_sql)
         conn.commit()
 
+
+def find_member_name_by_id(id):
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        select_sql = "select name from member where id = ?"
+        c.execute(select_sql, (str(id),))
+        return str(c.fetchone()[0])

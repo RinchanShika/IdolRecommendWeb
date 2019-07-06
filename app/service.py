@@ -6,7 +6,9 @@ def add_evaluationRow():
     return dao.add_evaluationRow()
 
 
-def add_evaluation(result, id):
-    dao.add_evaluation(result, id)
+def add_evaluation(name, eval, id):
+    dao.add_evaluation(name, eval, id)
 
-# 相関を求める
+
+def select_member(id):
+    return dao.find_member_name_by_id(id)
