@@ -78,3 +78,10 @@ def find_member_name_by_id(id):
         select_sql = "select name from member where id = ?"
         c.execute(select_sql, (str(id),))
         return str(c.fetchone()[0])
+
+
+dbname = 'IdolRecommendWebDB'
+with closing(sqlite3.connect(dbname)) as conn:
+    c = conn.cursor()
+    c.execute('select * from evaluation')
+    print(c.fetchall())
