@@ -1,1 +1,1 @@
-web: gunicorn IdolRecommendWeb/app/app.py --log-file -
+web: gunicorn app/app.py --log-file -
