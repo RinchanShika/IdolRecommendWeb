@@ -1,6 +1,6 @@
 import sqlite3
 from contextlib import closing
-from app import MemberList
+from app.MemberList import*
 
 
 # データベース、テーブルを作成する
@@ -20,7 +20,7 @@ def create_table():
         # 値設定
         insert_member_sql = '''insert into member(name,group_name) values(?,?)'''
         # add_column_to_evaluation = ''' alter table evaluation add column ? [ int]'''
-        for group in MemberList.groupList:
+        for group in groupList:
             for i in range(len(group)):
                 if i == 0:
                     continue
@@ -31,7 +31,7 @@ def create_table():
 
 # グループを追加する
 # グループは[group_name,name1,name2,……]のList型groupで与えられる
-def add_group(group):
+def add_group_dao(group):
     for i in range(len(group)):
         if i == 0:
             continue
@@ -39,7 +39,7 @@ def add_group(group):
 
 
 # メンバーを追加する
-def add_member(name, group_name):
+def add_member_dao(name, group_name):
     dbname = 'IdolRecommendWebDB'
     with closing(sqlite3.connect(dbname)) as conn:
         c = conn.cursor()
@@ -52,7 +52,7 @@ def add_member(name, group_name):
 
 # ユーザの評価行を作成
 # ユーザの行をidとして返す
-def add_evaluationRow():
+def add_evaluationRow_dao():
     dbname = 'IdolRecommendWebDB'
     with closing(sqlite3.connect(dbname)) as conn:
         c = conn.cursor()
@@ -62,7 +62,7 @@ def add_evaluationRow():
     return id
 
 
-def add_evaluation(name, eval, id):
+def add_evaluation_dao(name, eval, id):
     dbname = 'IdolRecommendWebDB'
     with closing(sqlite3.connect(dbname)) as conn:
         c = conn.cursor()
@@ -71,17 +71,10 @@ def add_evaluation(name, eval, id):
         conn.commit()
 
 
-def find_member_name_by_id(id):
+def find_member_name_by_id_dao(id):
     dbname = 'IdolRecommendWebDB'
     with closing(sqlite3.connect(dbname)) as conn:
         c = conn.cursor()
         select_sql = "select name from member where id = ?"
         c.execute(select_sql, (str(id),))
         return str(c.fetchone()[0])
-
-
-dbname = 'IdolRecommendWebDB'
-with closing(sqlite3.connect(dbname)) as conn:
-    c = conn.cursor()
-    c.execute('select * from evaluation')
-    print(c.fetchall())
