@@ -38,7 +38,7 @@ def get_first_list():
     # images = []
     # for name in names:
     name = '来栖りん'
-    num = random.randint(1, 10)
+    num = random.randint(1, 56)
     file_name = name + ' (' + str(num) + ').jpg'
     # file_path = '../static/img/' + file_name
     # images.append(file_name)
@@ -57,7 +57,7 @@ def puptEvaluation():
     print(session['id'])
 
     name = '来栖りん'
-    num = random.randint(1, 10)
+    num = random.randint(1, 56)
     file_name = name + ' (' + str(num) + ').jpg'
     # file_path = '../static/img/' + file_name
     # images.append(file_name)
