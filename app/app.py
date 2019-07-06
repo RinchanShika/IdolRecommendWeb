@@ -5,18 +5,18 @@ import glob
 import copy
 
 
-app = Flask(__name__)
-app.config['JSON_AS_ASCII'] = False
-app.secret_key = 'auhgushfuwe'
+app1 = Flask(__name__)
+app1.config['JSON_AS_ASCII'] = False
+app1.secret_key = 'auhgushfuwe'
 like_members = []
 
 
-@app.route('/')
+@app1.route('/')
 def top_page():
     return render_template('index.html', title='Recommend Your OSHIMEN')
 
 
-@app.route('/watchGirls')
+@app1.route('/watchGirls')
 def start():
     if 'id' not in session:
         id = a.service.add_evaluationRow()
@@ -24,7 +24,7 @@ def start():
     return render_template('watchIdols.html', title='Watch Cute and Beautiful Girls')
 
 
-@app.route('/getFirstList')
+@app1.route('/getFirstList')
 def get_first_list():
     like_members = []
     member_folder_list = glob.glob('static/img/*')
@@ -46,7 +46,7 @@ def get_first_list():
     return jsonify({'data': data})
 
 
-@app.route('/putEvaluation', methods=['POST'])
+@app1.route('/putEvaluation', methods=['POST'])
 def putEvaluation():
     data = request.get_json()
     put_eval = data['eval']
@@ -74,12 +74,12 @@ def putEvaluation():
     return jsonify({'data': data})
 
 
-@app.route('/endEvaluation')
+@app1.route('/endEvaluation')
 def endEvaluation():
     return render_template('likelist.html', title='Your OSHIMEN List')
 
 
-@app.route('/displaylikelist')
+@app1.route('/displaylikelist')
 def display_like_list():
     like_list = copy.copy(like_members)
     data = {
@@ -91,4 +91,4 @@ def display_like_list():
 
 # おまじない
 if __name__ == "__main__":
-    app.run(debug=True)
+    app1.run(debug=True)
