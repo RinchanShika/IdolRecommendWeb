@@ -1,32 +1,4 @@
 $(document).ready(function(){
-    alert('呼ばれたよ～')
-
-    $.ajax({
-        url:'http://l27.0.0.1:5000/getFirstList',
-        dataType: "json"
-        type:'GET',
-        data:{
-        }
-        })
-        // Ajaxリクエストが成功した時発動
-        .done( (data) => {
-            alert(data);
-            for( var = i; i < data[0].length; i++){
-                put_html = '<div class="avatar"  style="display: block; background-image: url(' + data[1][i] + ')"></div>';
-                $('.buddy').eq(i).html(data);
-            }
-            console.log(data);
-        })
-        // Ajaxリクエストが失敗した時発動
-        .fail( (data) => {
-            alert(data);
-            console.log(data);
-        })
-        // Ajaxリクエストが成功・失敗どちらでも発動
-        .always( (data) => {
-
-        });
-
 
     $(".buddy").on("swiperight",function(){
       $(this).addClass('rotate-left').delay(700).fadeOut(1);
@@ -52,4 +24,60 @@ $(document).ready(function(){
         $(this).next().removeClass('rotate-left rotate-right').fadeIn(400);
     }
   });
+
+      $.ajax({
+        url:'http://127.0.0.1:5000/getFirstList',
+        dataType: "json",
+        type:'GET'
+        })
+        // Ajaxリクエストが成功した時発動
+        .done(function(data){
+            name = data.data.name;
+            image = data.data.image;
+            imgUrl = "'../static/img/" + name + "/" + image + "'";
+            put_html = '<div class="avatar"  style="display: block; background-image: url( ' + imgUrl + ')"></div>';
+            $('.buddy').append(put_html);
+            $('.member_name').append(name)
+        })
+        // Ajaxリクエストが失敗した時発動
+        .fail( (data) => {
+            alert(data);
+            console.log(data);
+        })
+        // Ajaxリクエストが成功・失敗どちらでも発動
+        .always( (data) => {
+        });
 });
+
+function putEvaluation(eval){
+    $(function(){
+        $.ajax({
+        url:'http://127.0.0.1:5000/putEvaluation',
+        dataType: "json",
+        contentType: 'application/json',
+        data: JSON.stringify({
+            "name": $('.member_name').text(),
+            "eval": eval
+        }),
+        type:'POST'
+        })
+        // Ajaxリクエストが成功した時発動
+        .done(function(data){
+            name = data.data.name;
+            image = data.data.image;
+            imgUrl = "'../static/img/" + name + "/" + image + "'";
+            put_html = '<div class="avatar"  style="display: block; background-image: url( ' + imgUrl + ')"></div>';
+            $('.buddy').html(put_html);
+            $('.member_name').html(name)
+        })
+        // Ajaxリクエストが失敗した時発動
+        .fail( (data) => {
+            alert(data);
+            console.log(data);
+        })
+        // Ajaxリクエストが成功・失敗どちらでも発動
+        .always( (data) => {
+        });
+    });
+}
+
