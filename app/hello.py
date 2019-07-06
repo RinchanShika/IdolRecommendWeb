@@ -38,12 +38,12 @@ def get_first_list():
     for member_folder in member_folder_list:
         split_path = member_folder.split('\\')
         member_list.append(split_path[1])
-        print(member_list)
 
     num = random.randint(1, len(member_list))
     name = member_list[num - 1]
-    num = random.randint(1, 10)
-    file_name = name + ' (' + str(num) + ').jpg'
+    # num = random.randint(1, 10)
+    # file_name = name + ' (' + str(num) + ').jpg'
+    file_name = name + ' (1).jpg'
     image = file_name
     data = {
         "name": name,
@@ -64,12 +64,12 @@ def putEvaluation():
     for member_folder in member_folder_list:
         split_path = member_folder.split('\\')
         member_list.append(split_path[1])
-        print(member_list)
 
     num = random.randint(1, len(member_list))
     name = member_list[num - 1]
-    num = random.randint(1, 10)
-    file_name = name + ' (' + str(num) + ').jpg'
+    # num = random.randint(1, 10)
+    # file_name = name + ' (' + str(1) + ').jpg'
+    file_name = name + ' (1).jpg'
     image = file_name
     data = {
         "name": name,

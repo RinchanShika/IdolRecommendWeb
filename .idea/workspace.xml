@@ -5,42 +5,236 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/IdolRecommendWebDB" beforeDir="false" afterPath="$PROJECT_DIR$/app/IdolRecommendWebDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/hello.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231118.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231119.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231121.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231122.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231169.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231172.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231174.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231179.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231180.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231181.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231185.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231187.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231188.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231190.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231232.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231235.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231239.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231240.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231257.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231265.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231268.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231271.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan20190701001231276.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan2019070100123178.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/img/img1/rinchan6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/static/js/displayImg.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/js/displayImg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/watchIdols.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/watchIdols.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (100).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (101).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (102).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (103).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (104).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (105).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (106).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (107).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (108).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (109).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (110).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (111).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (112).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (113).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (114).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (115).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (116).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (117).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (118).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (119).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (120).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (13).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (14).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (15).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (16).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (17).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (18).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (19).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (20).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (21).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (22).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (23).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (24).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (25).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (26).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (27).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (28).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (29).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (30).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (31).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (32).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (33).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (34).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (35).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (36).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (37).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (38).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (39).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (40).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (41).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (42).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (43).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (44).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (45).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (46).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (47).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (48).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (49).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (50).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (51).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (52).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (53).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (54).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (55).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (56).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (57).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (58).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (59).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (60).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (61).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (62).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (63).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (64).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (65).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (66).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (67).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (68).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (69).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (70).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (71).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (72).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (73).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (74).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (75).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (76).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (77).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (78).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (79).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (80).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (81).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (82).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (83).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (84).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (85).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (86).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (87).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (88).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (89).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (90).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (91).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (92).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (93).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (94).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (95).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (96).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (97).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (98).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/一ノ瀬みか/一ノ瀬みか (99).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/吉井美優/吉井美優 (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/大門果琳/大門果琳 (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (13).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (14).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (15).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (16).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (17).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (18).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (19).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (20).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (21).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (22).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (23).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (24).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (25).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (26).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (27).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (28).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (29).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (30).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (31).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (32).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (33).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (34).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (35).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (36).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (37).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (38).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (39).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (40).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (41).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (42).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (43).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (44).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (45).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (46).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (47).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (48).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (49).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (50).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (51).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (52).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (53).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (54).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (55).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (56).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/来栖りん/来栖りん (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (12).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (13).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (14).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (15).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (16).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (17).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (18).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (19).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (20).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (21).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/森みはる/森みはる (9).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (1).jpg" beforeDir="false" afterPath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (1).jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (10).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (11).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (8).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/江嶋綾恵梨/江嶋綾恵梨 (9).jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,17 +247,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+            <state>
+              <caret column="15" selection-start-column="15" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/hello.html">
+        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="85">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -77,14 +271,49 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/watchIdols.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/hello.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="177">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="e#0#67#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/dataAccessor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/service.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -92,26 +321,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/static/js/displayImg.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/watchIdols.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="221">
+              <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -136,17 +347,17 @@
         <option value="$PROJECT_DIR$/app/templates/test1.html" />
         <option value="$PROJECT_DIR$/app/static/img/img1/test1.py" />
         <option value="$PROJECT_DIR$/app/test1.py" />
-        <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/MemberList.py" />
         <option value="$PROJECT_DIR$/app/MemberList.py" />
-        <option value="$PROJECT_DIR$/app/service.py" />
-        <option value="$PROJECT_DIR$/app/dataAccessor.py" />
         <option value="$PROJECT_DIR$/app/templates/hello.html" />
         <option value="$PROJECT_DIR$/app/static/css/style.css" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
         <option value="$PROJECT_DIR$/app/templates/layout.html" />
         <option value="$PROJECT_DIR$/app/templates/watchIdols.html" />
-        <option value="$PROJECT_DIR$/app/hello.py" />
         <option value="$PROJECT_DIR$/app/static/js/displayImg.js" />
+        <option value="$PROJECT_DIR$/app/service.py" />
+        <option value="$PROJECT_DIR$/app/dataAccessor.py" />
+        <option value="$PROJECT_DIR$/app/hello.py" />
       </list>
     </option>
   </component>
@@ -186,13 +397,6 @@
               <item name="IdolRecommendWeb" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IdolRecommendWeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IdolRecommendWeb" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -223,7 +427,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app/static/img/img1" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -354,15 +558,50 @@
       <option name="project" value="LOCAL" />
       <updated>1562324160044</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ugoiteyo">
+      <created>1562331584624</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562331584624</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ugoiteyo">
+      <created>1562331624985</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562331624985</updated>
+    </task>
+    <task id="LOCAL-00010" summary="ajax通信に成功">
+      <created>1562403405298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562403405298</updated>
+    </task>
+    <task id="LOCAL-00011" summary="へんこう">
+      <created>1562403446555</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562403446555</updated>
+    </task>
+    <task id="LOCAL-00012" summary="いいかんじ">
+      <created>1562406633094</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562406633094</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26596606" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973545" visible="true" weight="0.23039612" />
+      <window_info id="Structure" order="1" sideWeight="0.5026455" side_tool="true" visible="true" weight="0.23039612" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32978722" />
@@ -393,7 +632,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32978722" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -411,7 +650,10 @@
     <MESSAGE value="db" />
     <MESSAGE value="aiueo" />
     <MESSAGE value="ugoiteyo" />
-    <option name="LAST_COMMIT_MESSAGE" value="ugoiteyo" />
+    <MESSAGE value="ajax通信に成功" />
+    <MESSAGE value="へんこう" />
+    <MESSAGE value="いいかんじ" />
+    <option name="LAST_COMMIT_MESSAGE" value="いいかんじ" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/pyvenv.cfg">
@@ -425,26 +667,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/service.py">
+    <entry file="file://$PROJECT_DIR$/app/static/js/displayImg" />
+    <entry file="file://$PROJECT_DIR$/app/static/img/img1/rinchan5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="15" selection-start-column="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/watchIdols.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/js/displayImg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="67" column="59" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/dataAccessor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="58">
+          <caret line="70" column="21" selection-start-line="70" selection-start-column="21" selection-end-line="70" selection-end-column="21" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/displayImg" />
-    <entry file="file://$PROJECT_DIR$/app/static/img/img1/rinchan5.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -453,49 +728,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/static/js/displayImg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/watchIdols.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/hello.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="177">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#67#0" expanded="true" />
           </folding>
         </state>
       </provider>
