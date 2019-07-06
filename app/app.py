@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, session, request
-import app.service as service
+from app import service as service
 import random
 import glob
 import copy
