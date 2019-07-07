@@ -69,6 +69,7 @@ def putEvaluation():
     print(member_list)
     num = random.randint(1, len(member_list))
     name = member_list.pop(num - 1)
+    print( name in member_list )
     file_name = name + ' (1).jpg'
     image = file_name
     data = {
