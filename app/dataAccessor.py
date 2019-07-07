@@ -2,7 +2,6 @@ import sqlite3
 from contextlib import closing
 from . import MemberList
 
-
 # データベース、テーブルを作成する
 def create_table():
     dbname = 'IdolRecommendWebDB'

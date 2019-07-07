@@ -10,7 +10,9 @@ $(document).ready(function(){
             console.log(like_list)
             for (var i = 0 ; i < like_list.length;i++){
                 put_html = like_list[i] + '</br>';
+                img_html = "<img src='../static/img/" + name1 + "/" + name1 + " (1).jpg'>";
                 $('.like_list').append(put_html);
+                $('.like_list').append(img_html);
             }
         })
         // Ajaxリクエストが失敗した時発動
