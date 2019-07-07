@@ -84,11 +84,13 @@ def get_twitter(name):
     dbname = 'IdolRecommendWebDB'
     with closing(sqlite3.connect(dbname)) as conn:
         c = conn.cursor()
-        select_sql = 'select twitter_id from member where name = ?'
+        select_sql = 'select group_name, twitter_id from member where name = ?'
         c.execute(select_sql, (name,))
-        twitter_id = c.fetchone()
-        twitter_id_str = twitter_id[0]
-        return twitter_id_str
+        result = c.fetchone()
+        group_name = result[0]
+        twitter_id = result[1]
+        result_set = [group_name, twitter_id]
+        return result_set
 
 
 def add_twitter():

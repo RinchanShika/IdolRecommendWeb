@@ -8,8 +8,9 @@ $(document).ready(function(){
         .done(function(data){
             like_list = data.data.like_list;
             like_list_twitter = data.data.like_list_twitter;
+            like_list_group = data.data.like_list_group;
             for (var i = 0 ; i < like_list.length;i++){
-                put_html = like_list[i] + '';
+                put_html = like_list[i] + '(' + like_list_group[i] + ')';
                 $('.like_list').append(put_html);
                 if(like_list_twitter[i] != ''){
                     twitter_html = "  <a href = 'https://twitter.com/" + like_list_twitter[i] + "' target='_blank'>Twitter</a>";

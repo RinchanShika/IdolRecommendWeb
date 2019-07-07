@@ -89,15 +89,17 @@ def endEvaluation():
 def display_like_list():
     like_list = copy.copy(like_members)
 
-    like_list_twitter =[]
+    like_list_twitter = []
+    like_list_group = []
     for member in like_list:
-        twitter_id = accessService.get_twitter(member)
-        print(twitter_id)
-        like_list_twitter.append(twitter_id)
+        result_set = accessService.get_twitter(member)
+        like_list_group.append((result_set[0]))
+        like_list_twitter.append(result_set[1])
 
     data = {
         "like_list": like_list,
-        "like_list_twitter": like_list_twitter
+        "like_list_twitter": like_list_twitter,
+        "like_list_group": like_list_group
     }
     like_members.clear()
     return jsonify({'data': data})
