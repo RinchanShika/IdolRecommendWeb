@@ -54,6 +54,7 @@
   background-position: center;
  background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 .judge{
   position:relative;
   width: 400px;
@@ -73,6 +74,25 @@
 .button2{
   width:80px;
 }
+=======
+
+.next_avatar {
+  display:none;
+  background: #222;
+  width: 340px;
+  height: 340px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-size: auto 160% !important;
+  background-position: center;
+ background-repeat: no-repeat;
+}
+
+.next_member_name{
+    display:none;
+}
+
+>>>>>>> c639940420e0b8f7596c6c852ee4c6afb9145a68
 .like {
   border-radius: 5px;
   padding: 5px 10px;
