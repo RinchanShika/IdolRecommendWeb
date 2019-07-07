@@ -31,6 +31,7 @@ def get_first_list():
     member_folder_list = glob.glob('static/img/*')
     member_list = []
     for member_folder in member_folder_list:
+        print(member_folder)
         split_path = member_folder.split('\\')
         member_list.append(split_path[1])
 
