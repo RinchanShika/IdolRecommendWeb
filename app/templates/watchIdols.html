@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1 style="text-align:center">********</h1>
+    <h3 style="text-align:center">************</h3>
+  <div id="container">
+      <span class="member_name"></span>
+    <div class="buddy" style="display: block;"></div>
+      <input type="button" value="Like" onclick="putEvaluation(1)">
+    <input type="button" value="DisLike" onclick="putEvaluation(0)">
+      <input type="button" value="End" onclick="location.href='/endEvaluation'">
+  </div>
+
+
+<script src="../static/js/displayImg.js"></script>
+{% endblock %}
