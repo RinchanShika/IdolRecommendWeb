@@ -83,7 +83,7 @@
   height: 340px;
   margin-top: 10px;
   margin-left: 10px;
-  background-size: auto 160% !important;
+  background-size: contain !important;
   background-position: center;
  background-repeat: no-repeat;
 }
