@@ -62,6 +62,7 @@ def get_first_list():
 @app.route('/putEvaluation', methods=['POST'])
 def putEvaluation():
     member_count = len(member_list)
+    print(member_count)
     data = request.get_json()
     put_eval = data['eval']
     put_name = data['name']
