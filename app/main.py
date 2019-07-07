@@ -98,7 +98,7 @@ def admin():
     return render_template('admin.html', title='admin page')
 
 
-@app.route('evaluationdata')
+@app.route('/evaluationdata')
 def evaluationdata():
     return render_template('evaluationdata.html', title='admin page')
 
