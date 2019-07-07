@@ -3,18 +3,22 @@
 
 .contents{
     max-width:480px;
-    width : 98%;
+    width : 100%;
     margin-right: auto;
     margin-left : auto;
     text-align: center;
 }
 
+.toplogo{
+    max-width:480px;
+    width:80%;
+}
+
 #container {
-  max-width: 500px;
-  width:100vmin;
+  width:500px
   margin: auto !important;
   display: block;
-  height: 100vmin;
+  height: 420px;
   position: relative;
   list-style-type: none;
   -webkit-touch-callout: none;
@@ -24,20 +28,32 @@
   -ms-user-select: none;
   user-select: none;
 }
+
 .buddy {
   display: none;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
   color: #fff;
-  padding: 20px;
-  width: 360px;
+  width: 90%;
   height: 360px;
-  top: 50px;
-  left: 50px;
-  position: absolute;
+  position: relative;
   cursor: hand;
 }
+
+.avatar {
+  background: white;
+  width: 95%;
+  height: 95%;
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right:10px
+  background-size: contain !important;
+  background-position: center;
+ background-repeat: no-repeat;
+}
+
 .rotate-left {
   transform: rotate(30deg) scale(0.8);
   transition: 1s;
@@ -54,17 +70,7 @@
   cursor: w-resize;
   z-index: 10;
 }
-.avatar {
-  background: white;
-  width: 340px;
-  height: 340px;
-  display: block;
-  margin-top: 10px;
-  margin-left: 10px;
-  background-size: contain !important;
-  background-position: center;
- background-repeat: no-repeat;
-}
+
 
 .next_avatar {
   display:none;
