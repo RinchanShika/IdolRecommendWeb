@@ -66,7 +66,7 @@ def putEvaluation():
     accessService.add_evaluation(put_name, put_eval, session['id'])
     if put_eval == 1:
         like_members.append(put_name)
-
+    print(member_list)
     num = random.randint(1, len(member_list))
     name = member_list.pop(num - 1)
     file_name = name + ' (1).jpg'
