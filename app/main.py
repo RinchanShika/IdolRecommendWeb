@@ -103,11 +103,6 @@ def evaluationdata():
     return render_template('evaluationdata.html', title='admin page')
 
 
-@app.route('displayevaluationdata')
-def display_evaluationdata():
-
-
-
 # おまじない
 if __name__ == "__main__":
     app.run(debug=True)
