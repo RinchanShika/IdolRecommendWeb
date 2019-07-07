@@ -32,7 +32,7 @@ def get_first_list():
     member_list = []
     for member_folder in member_folder_list:
         print(member_folder)
-        split_path = member_folder.split('\\')
+        split_path = member_folder.split('img/')
         member_list.append(split_path[1])
 
     num = random.randint(1, len(member_list))
