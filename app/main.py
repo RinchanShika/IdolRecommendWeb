@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, session, request
-import app as a
+from app import accessService
 import random
 import glob
 import copy
@@ -19,7 +19,8 @@ def top_page():
 @app.route('/watchGirls')
 def start():
     if 'id' not in session:
-        id = a.service.add_evaluationRow()
+        id = accessService.add_evaluationRow()
+        print(str(id))
         session['id'] = id
     return render_template('watchIdols.html', title='Watch Cute and Beautiful Girls')
 
@@ -51,7 +52,7 @@ def putEvaluation():
     data = request.get_json()
     put_eval = data['eval']
     put_name = data['name']
-    a.service.add_evaluation(put_name, put_eval, session['id'])
+    accessService.add_evaluation(put_name, put_eval, session['id'])
     if put_eval == 1:
         like_members.append(put_name)
 

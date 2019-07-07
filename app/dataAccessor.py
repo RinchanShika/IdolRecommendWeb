@@ -1,6 +1,6 @@
 import sqlite3
 from contextlib import closing
-import app as a
+from . import MemberList
 
 
 # データベース、テーブルを作成する
@@ -20,7 +20,7 @@ def create_table():
         # 値設定
         insert_member_sql = '''insert into member(name,group_name) values(?,?)'''
         # add_column_to_evaluation = ''' alter table evaluation add column ? [ int]'''
-        for group in a.MemberList.groupList:
+        for group in MemberList.groupList:
             for i in range(len(group)):
                 if i == 0:
                     continue
@@ -35,7 +35,7 @@ def add_group_dao(group):
     for i in range(len(group)):
         if i == 0:
             continue
-        a.dataAccessor.add_member(group[i], group[0])
+        add_member_dao(group[i], group[0])
 
 
 # メンバーを追加する

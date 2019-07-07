@@ -1,3 +1,3 @@
-from app.service import *
+from app.accessService import *
 from app.dataAccessor import *
 from app.MemberList import *
