@@ -26,7 +26,7 @@ $(document).ready(function(){
   });
 
       $.ajax({
-        url:'http://127.0.0.1:5000/getFirstList',
+        url:'/getFirstList',
         dataType: "json",
         type:'GET'
         })
@@ -52,7 +52,7 @@ $(document).ready(function(){
 function putEvaluation(eval){
     $(function(){
         $.ajax({
-        url:'http://127.0.0.1:5000/putEvaluation',
+        url:'/putEvaluation',
         dataType: "json",
         contentType: 'application/json',
         data: JSON.stringify({
