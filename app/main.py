@@ -54,7 +54,7 @@ def get_first_list():
         "name2": name2,
         "image2": image2
     }
-
+    print(data)
     return jsonify({'data': data})
 
 
