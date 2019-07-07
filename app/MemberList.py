@@ -19,7 +19,7 @@ firosofinodansu_twitter = ['DFP_2015', 'ttk_philosophy', 'philosophy092', '_sato
 nijinokonkisutadoru = ['虹のコンキスタドール', '岡田彩夢', '片岡未優', '隈本茉莉奈', '清水理子', '鶴見萌', '中村朱里',
                        '根本凪', '蛭田愛梨', '的場華鈴', '山崎夏菜', '大和明桜', '山本莉唯']
 nijinokonkisutadoru_twitter = ['2zicon', 'okada_ayame', 'kataoka_miyu', 'kumamoto_marina', 'shimizu_riko', 'tsurumi_moe', 'nakamura_akari',
-                       'nemoto_nagi', 'hiruta_airi', 'matoba_karin', 'yamasaki_nana', 'yamato_ao', 'yamamoto__rio']
+                       'nemoto_nagi', 'hiruta_airi', 'matoba_karin', 'yamasaki_nana', 'yamato__ao', 'yamamoto__rio']
 festive = ['FES☆TIVE', '青葉ひなり', '白石ぴあの', '真野彩里愛', '土光瑠璃子', '南茉莉花', '近藤沙瑛子']
 festive_twitter = ['festiveofficial', 'Hinari_FESTIVE', 'Piano_FESTIVE', 'Saria_FESTIVE', 'Ruriko_FESTIVE', 'Marika_FESTIVE', 'Saeko_FESTIVE']
 taskhavefun = ['Task have Fun', '熊澤風花', '白岡今日花', '里仲菜月']
