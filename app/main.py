@@ -37,7 +37,8 @@ def get_first_list():
             split_path = member_folder.split('img/')
         member_list.append(split_path[1])
 
-    num = random.randint(1, len(member_list))
+    member_count = len(member_list)
+    num = random.randint(1, member_count)
     name1 = member_list.pop(num - 1)
 
     file_name = name1 + ' (1).jpg'
@@ -60,13 +61,14 @@ def get_first_list():
 
 @app.route('/putEvaluation', methods=['POST'])
 def putEvaluation():
+    member_count = len(member_list)
     data = request.get_json()
     put_eval = data['eval']
     put_name = data['name']
     accessService.add_evaluation(put_name, put_eval, session['id'])
     if put_eval == 1:
         like_members.append(put_name)
-    num = random.randint(1, len(member_list))
+    num = random.randint(1, member_count)
     name = member_list.pop(num - 1)
     file_name = name + ' (1).jpg'
     image = file_name
