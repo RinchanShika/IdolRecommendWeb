@@ -32,12 +32,19 @@ $(document).ready(function(){
         })
         // Ajaxリクエストが成功した時発動
         .done(function(data){
-            name = data.data.name;
-            image = data.data.image;
-            imgUrl = "'../static/img/" + name + "/" + image + "'";
-            put_html = '<div class="avatar"  style="display: block; background-image: url( ' + imgUrl + ')"></div>';
-            $('.buddy').append(put_html);
-            $('.member_name').append(name)
+            name1 = data.data.name1;
+            image1 = data.data.image1;
+            imgUrl1 = "'../static/img/" + name1 + "/" + image1 + "'";
+            put_html1 = '<div class="avatar"  style="display: block; background-image: url( ' + imgUrl1 + ')"></div>';
+            $('.buddy').html(put_html1);
+            $('.member_name').append(name1)
+
+            name2 = data.data.name2;
+            image2 = data.data.image2;
+            imgUrl2 = "'../static/img/" + name2 + "/" + image2 + "'";
+            put_html2 = '<div class="next_avatar"  style="background-image: url( ' + imgUrl2 + ')"></div>';
+            $('.buddy').append(put_html2);
+            $('.next_member_name').append(name2)
         })
         // Ajaxリクエストが失敗した時発動
         .fail( (data) => {
@@ -63,12 +70,24 @@ function putEvaluation(eval){
         })
         // Ajaxリクエストが成功した時発動
         .done(function(data){
+            //avatarを削除
+            $('.avatar').remove();
+            //member_nameを削除
+            $('.member_name').remove();
+            //next_avatarをavatarに
+            $('.next_avatar').addClass('avatar').removeClass('next_avatar')
+            //next_member_nameをmember_nameに
+            $('.next_member_name').addClass('member_name').removeClass('next_member_name')
+
+            //next_avatarを追加
+            //next_member_nameを追加
             name = data.data.name;
             image = data.data.image;
             imgUrl = "'../static/img/" + name + "/" + image + "'";
-            put_html = '<div class="avatar"  style="display: block; background-image: url( ' + imgUrl + ')"></div>';
-            $('.buddy').html(put_html);
-            $('.member_name').html(name)
+            put_html = '<div class="next_avatar" style="background-image: url( ' + imgUrl + ')"></div>';
+            name_html = '<span class="next_member_name">' + name + '</span>'
+            $('.buddy').append(put_html);
+            $('.member_name_area').append(name_html)
         })
         // Ajaxリクエストが失敗した時発動
         .fail( (data) => {

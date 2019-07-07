@@ -67,6 +67,7 @@ def add_evaluation_dao(name, eval, id):
     with closing(sqlite3.connect(dbname)) as conn:
         c = conn.cursor()
         update_sql = 'update evaluation set ' + name + ' = ' + str(eval) + ' where id = ' + str(id)
+        print(name)
         c.execute(update_sql)
         conn.commit()
 

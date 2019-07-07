@@ -9,7 +9,7 @@ app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 app.secret_key = 'auhgushfuwe'
 like_members = []
-
+member_list = []
 
 @app.route('/')
 def top_page():
@@ -27,24 +27,34 @@ def start():
 
 @app.route('/getFirstList')
 def get_first_list():
-    like_members = []
+    member_list.clear()
     member_folder_list = glob.glob('static/img/*')
-    member_list = []
     for member_folder in member_folder_list:
         print(member_folder)
-        split_path = member_folder.split('img/')
+        if '\\' in member_folder:
+            split_path = member_folder.split('\\')
+        else:
+            split_path = member_folder.split('img/')
         member_list.append(split_path[1])
 
     num = random.randint(1, len(member_list))
-    name = member_list[num - 1]
-    # num = random.randint(1, 10)
-    # file_name = name + ' (' + str(num) + ').jpg'
-    file_name = name + ' (1).jpg'
-    image = file_name
+    name1 = member_list.pop(num - 1)
+
+    file_name = name1 + ' (1).jpg'
+    image1 = file_name
+
+    num = random.randint(1, len(member_list))
+    name2 = member_list.pop(num - 1)
+    file_name = name2 + ' (1).jpg'
+    image2 = file_name
+
     data = {
-        "name": name,
-        "image": image
+        "name1": name1,
+        "image1": image1,
+        "name2": name2,
+        "image2": image2
     }
+
     return jsonify({'data': data})
 
 
@@ -57,16 +67,8 @@ def putEvaluation():
     if put_eval == 1:
         like_members.append(put_name)
 
-    member_folder_list = glob.glob('static/img/*')
-    member_list = []
-    for member_folder in member_folder_list:
-        split_path = member_folder.split('img/')
-        member_list.append(split_path[1])
-
     num = random.randint(1, len(member_list))
-    name = member_list[num - 1]
-    # num = random.randint(1, 10)
-    # file_name = name + ' (' + str(1) + ').jpg'
+    name = member_list.pop(num - 1)
     file_name = name + ' (1).jpg'
     image = file_name
     data = {
