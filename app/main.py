@@ -10,7 +10,7 @@ app.config['JSON_AS_ASCII'] = False
 app.secret_key = 'auhgushfuwe'
 like_members = []
 member_list = []
-member_count = len(member_list)
+
 
 @app.route('/')
 def top_page():
@@ -61,6 +61,7 @@ def get_first_list():
 
 @app.route('/putEvaluation', methods=['POST'])
 def putEvaluation():
+    member_count = len(member_list)
     data = request.get_json()
     put_eval = data['eval']
     put_name = data['name']
