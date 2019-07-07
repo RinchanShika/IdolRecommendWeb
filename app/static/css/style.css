@@ -44,15 +44,34 @@
   z-index: 10;
 }
 .avatar {
-  background: #222;
+  background: white;
   width: 340px;
   height: 340px;
   display: block;
   margin-top: 10px;
   margin-left: 10px;
-  background-size: auto 160% !important;
+  background-size: contain !important;
   background-position: center;
  background-repeat: no-repeat;
+}
+.judge{
+  position:relative;
+  width: 400px;
+  height: 30px;
+  padding:0 50px;
+  margin: auto !important;
+  display: block;
+}
+.alignRight{
+  position: absolute;
+  right:50px;
+  top:0px;
+}
+.finish{
+  text-align:center;
+}
+.button2{
+  width:80px;
 }
 .like {
   border-radius: 5px;
