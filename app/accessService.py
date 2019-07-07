@@ -1,4 +1,4 @@
-from . import dataAccessor
+from app import dataAccessor
 
 
 # start→evaluationにユーザ評価行を登録する

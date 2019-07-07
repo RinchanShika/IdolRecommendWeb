@@ -11,6 +11,7 @@ app.secret_key = 'auhgushfuwe'
 like_members = []
 member_list = []
 
+
 @app.route('/')
 def top_page():
     return render_template('index.html', title='Recommend Your OSHIMEN')
@@ -30,7 +31,6 @@ def get_first_list():
     member_list.clear()
     member_folder_list = glob.glob('static/img/*')
     for member_folder in member_folder_list:
-        print(member_folder)
         if '\\' in member_folder:
             split_path = member_folder.split('\\')
         else:
