@@ -115,3 +115,9 @@
   left: 40px;
   text-shadow: none;
 }
+
+/*結果発表*/
+.likelist_image{
+  max-width: 400px;
+  height:auto;
+}
