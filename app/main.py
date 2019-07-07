@@ -66,10 +66,8 @@ def putEvaluation():
     accessService.add_evaluation(put_name, put_eval, session['id'])
     if put_eval == 1:
         like_members.append(put_name)
-    print(member_list)
     num = random.randint(1, len(member_list))
     name = member_list.pop(num - 1)
-    print( name in member_list )
     file_name = name + ' (1).jpg'
     image = file_name
     data = {
@@ -87,8 +85,16 @@ def endEvaluation():
 @app.route('/displaylikelist')
 def display_like_list():
     like_list = copy.copy(like_members)
+
+    like_list_twitter =[]
+    for member in like_list:
+        twitter_id = accessService.get_twitter(member)
+        print(twitter_id)
+        like_list_twitter.append(twitter_id)
+
     data = {
         "like_list": like_list,
+        "like_list_twitter": like_list_twitter
     }
     like_members.clear()
     return jsonify({'data': data})

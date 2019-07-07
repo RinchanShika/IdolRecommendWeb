@@ -78,3 +78,35 @@ def find_member_name_by_id_dao(id):
         select_sql = "select name from member where id = ?"
         c.execute(select_sql, (str(id),))
         return str(c.fetchone()[0])
+
+
+def get_twitter(name):
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        select_sql = 'select twitter_id from member where name = ?'
+        c.execute(select_sql, (name,))
+        twitter_id = c.fetchone()
+        twitter_id_str = twitter_id[0]
+        return twitter_id_str
+
+
+def add_twitter():
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        group_count = len(MemberList.groupList)
+
+        for i in range(group_count):
+            for j in range(len(MemberList.groupList[i])):
+                if j == 0:
+                    continue
+                name = MemberList.groupList[i][j]
+                twitter = MemberList.groupTwitterList[i][j]
+                update_sql = "update member set twitter_id  = '" + str(twitter) + "' where name = '" + str(name) + "'"
+                print(update_sql)
+                c.execute(update_sql)
+
+        conn.commit()
+        c.execute('select * from member')
+        print(c.fetchall())

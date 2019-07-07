@@ -12,3 +12,7 @@ def add_evaluation(name, eval, id):
 
 def select_member(id):
     return dataAccessor.find_member_name_by_id_dao(id)
+
+
+def get_twitter(name):
+    return dataAccessor.get_twitter(name)
