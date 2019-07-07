@@ -15,7 +15,7 @@ $(document).ready(function(){
                     twitter_html = "  <a href = 'https://twitter.com/" + like_list_twitter[i] + "' target='_blank'>Twitter</a>";
                     $('.like_list').append(twitter_html);
                 }
-                img_html = "</br><img class="likelist_image" src='../static/img/" + like_list[i] + "/" + like_list[i] + " (1).jpg'><br></br>";
+                img_html = "</br><img class='likelist_image' src='../static/img/" + like_list[i] + "/" + like_list[i] + " (1).jpg'><br></br>";
                 $('.like_list').append(img_html);
             }
         })
