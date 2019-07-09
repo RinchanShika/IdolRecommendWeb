@@ -2,6 +2,7 @@ import sqlite3
 from contextlib import closing
 from app import MemberList
 
+
 # データベース、テーブルを作成する
 def create_table():
     dbname = 'IdolRecommendWebDB'
@@ -25,6 +26,8 @@ def create_table():
                     continue
                 c.execute(insert_member_sql, (group[i], group[0]))
                 c.execute(' alter table evaluation add column ' + str(group[i]) + ' [ int]')
+        c.execute('PRAGMA TABLE_INFO(evaluation)')
+        print(c.fetchall())
         conn.commit()
 
 
@@ -112,3 +115,69 @@ def add_twitter():
         conn.commit()
         c.execute('select * from member')
         print(c.fetchall())
+
+
+def any_sql():
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+
+
+def insert_csv():
+    import pandas as pd
+    df = pd.read_csv('C:/Users/yasug/Downloads/Untitled form (Responses) - Sheet4 (1).csv')
+    columns_name = df.columns
+    row_count = 33
+    print(columns_name)
+
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+
+        for i in range(row_count):
+            df_row = df.iloc[i, :].values
+            print(df_row)
+            c.execute('insert into evaluation default values')
+            id = c.lastrowid
+            for j in range(len(columns_name)):
+                name = columns_name[j]
+                if columns_name[j] == '小山さゆ':
+                   name = '小山ひな'
+                if columns_name[j] == '神崎颯花':
+                    name = '神﨑風花'
+                if columns_name[j] == '松下玲緒奈':
+                    name = '松下玲緒菜'
+                update_sql = 'update evaluation set ' + str(name) + ' = ' + str(df_row[j]) + ' where id = ' + str(id)
+                print(update_sql)
+                c.execute(update_sql)
+                conn.commit()
+
+
+def calc_similarity():
+    for i in range(csv_rows_count - 1):
+        target_sum_points = 0
+        comp_sum_points = 0
+        sum_multi_points = 0
+        target_sum_square_points = 0
+        comp_sum_square_point = 0
+        if csv_input.iloc[i, 0] != target_user:
+            comp_user = csv_input.iloc[i, 0]
+            print(comp_user)
+            comp_row = csv_input.iloc[i, 1:35]
+            comp_row_check = csv_input.iloc[i, 39:43]
+            s1 = pd.Series(target_row)
+            s2 = pd.Series(comp_row)
+
+
+            try:
+                res = s1.astype('int').corr(s2.astype('int'))
+            except:
+                pass
+            if res > 0.50:
+                similarities.append(target_user + ':' + comp_user + '=' + str(res))
+                # for k in range(8):
+                #     print('T:' + str(target_row_check[k]) + 'C:' + str(comp_row_check[k]))
+                print('森みはる→T:' + str(target_row_check[0]) + 'C:' + str(comp_row_check[0]))
+            print(res)
+
+    print(similarities)
