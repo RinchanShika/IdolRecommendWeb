@@ -181,3 +181,6 @@ def calc_similarity():
             print(res)
 
     print(similarities)
+
+
+add_twitter()
