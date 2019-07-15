@@ -63,7 +63,10 @@ def get_first_list():
 def putEvaluation():
     global member_list
     global like_members
+    print(member_list)
+    print(like_members)
     member_count = len(member_list)
+    print(member_count)
     data = request.get_json()
     put_eval = data['eval']
     put_name = data['name']
