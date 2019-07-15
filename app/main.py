@@ -32,7 +32,6 @@ def start():
 def get_first_list():
 
     member_list = session['member_list']
-    like_members = session['like_members']
     member_list.clear()
     member_folder_list = glob.glob('static/img/*')
     for member_folder in member_folder_list:
@@ -61,6 +60,7 @@ def get_first_list():
         "image2": image2
     }
     print(data)
+    session['member_list'] = member_list
     return jsonify({'data': data})
 
 
@@ -88,6 +88,8 @@ def putEvaluation():
         "name": name,
         "image": image
     }
+    session['member_list'] = member_list
+    session['like_members'] = like_members
     return jsonify({'data': data})
 
 
@@ -115,6 +117,7 @@ def display_like_list():
         "like_list_group": like_list_group
     }
     like_members.clear()
+    session['like_members'] = like_members
     return jsonify({'data': data})
 
 

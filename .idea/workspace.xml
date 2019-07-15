@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51d22333-ae72-4a39-b8ce-f15d86ba4593" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+            <state relative-caret-position="-299">
+              <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
               <folding>
                 <element signature="e#0#67#0" expanded="true" />
               </folding>
@@ -400,27 +399,6 @@
       <option name="presentableId" value="Default" />
       <updated>1562241867486</updated>
     </task>
-    <task id="LOCAL-00013" summary="いいかんじ">
-      <created>1562413373604</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1562413373604</updated>
-    </task>
-    <task id="LOCAL-00014" summary="いいかんじ">
-      <created>1562417110142</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1562417110142</updated>
-    </task>
-    <task id="LOCAL-00015" summary="いいかんじ">
-      <created>1562417866902</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1562417866902</updated>
-    </task>
     <task id="LOCAL-00016" summary="いいかんじ">
       <created>1562418083269</created>
       <option name="number" value="00016" />
@@ -743,7 +721,28 @@
       <option name="project" value="LOCAL" />
       <updated>1563202890952</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="log">
+      <created>1563203224485</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1563203224486</updated>
+    </task>
+    <task id="LOCAL-00063" summary="log">
+      <created>1563203256156</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1563203256156</updated>
+    </task>
+    <task id="LOCAL-00064" summary="lg">
+      <created>1563203380394</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1563203380394</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -792,7 +791,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="くるすりん" />
     <MESSAGE value="復帰" />
     <MESSAGE value="db" />
     <MESSAGE value="ugoiteyo" />
@@ -817,7 +815,8 @@
     <MESSAGE value="pp" />
     <MESSAGE value="css" />
     <MESSAGE value="log" />
-    <option name="LAST_COMMIT_MESSAGE" value="log" />
+    <MESSAGE value="lg" />
+    <option name="LAST_COMMIT_MESSAGE" value="lg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -982,8 +981,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="65" column="35" lean-forward="true" selection-start-line="65" selection-start-column="35" selection-end-line="65" selection-end-column="35" />
+        <state relative-caret-position="-299">
+          <caret line="101" column="42" selection-start-line="101" selection-start-column="42" selection-end-line="101" selection-end-column="42" />
           <folding>
             <element signature="e#0#67#0" expanded="true" />
           </folding>
