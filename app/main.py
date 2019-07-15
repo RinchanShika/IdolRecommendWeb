@@ -28,6 +28,9 @@ def start():
 
 @app.route('/getFirstList')
 def get_first_list():
+    global member_list
+    global like_members
+
     member_list.clear()
     member_folder_list = glob.glob('static/img/*')
     for member_folder in member_folder_list:
@@ -93,6 +96,8 @@ def endEvaluation():
 
 @app.route('/displaylikelist')
 def display_like_list():
+    global member_list
+    global like_members
     like_list = copy.copy(like_members)
 
     like_list_twitter = []
