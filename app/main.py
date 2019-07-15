@@ -8,8 +8,6 @@ import copy
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 app.secret_key = 'auhgushfuwe'
-like_members = []
-member_list = []
 
 
 @app.route('/')
@@ -23,14 +21,18 @@ def start():
         id = accessService.add_evaluationRow()
         print(str(id))
         session['id'] = id
+    member_list = []
+    session['member_list'] = member_list
+    like_members = []
+    session['like_members'] = like_members
     return render_template('watchIdols.html', title='Watch Cute and Beautiful Girls')
 
 
 @app.route('/getFirstList')
 def get_first_list():
-    global member_list
-    global like_members
 
+    member_list = session['member_list']
+    like_members = session['like_members']
     member_list.clear()
     member_folder_list = glob.glob('static/img/*')
     for member_folder in member_folder_list:
@@ -64,8 +66,8 @@ def get_first_list():
 
 @app.route('/putEvaluation', methods=['POST'])
 def putEvaluation():
-    global member_list
-    global like_members
+    member_list = session['member_list']
+    like_members = session['like_members']
     print(member_list)
     print(like_members)
     member_count = len(member_list)
@@ -96,8 +98,8 @@ def endEvaluation():
 
 @app.route('/displaylikelist')
 def display_like_list():
-    global member_list
-    global like_members
+    member_list = session['member_list']
+    like_members = session['like_members']
     like_list = copy.copy(like_members)
 
     like_list_twitter = []
