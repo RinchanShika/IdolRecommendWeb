@@ -65,9 +65,11 @@ def putEvaluation():
     data = request.get_json()
     put_eval = data['eval']
     put_name = data['name']
-    accessService.add_evaluation(put_name, put_eval, session['id'])
-    if put_eval == 1:
+    eval_points = accessService.add_evaluation(put_name, put_eval, session['id'])
+    print(str(eval_points))
+    if eval_points == 1:
         like_members.append(put_name)
+        print(like_members)
     num = random.randint(1, member_count)
     name = member_list.pop(num - 1)
     file_name = name + ' (1).jpg'

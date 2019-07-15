@@ -7,7 +7,7 @@ def add_evaluationRow():
 
 
 def add_evaluation(name, eval, id):
-    dataAccessor.add_evaluation_dao(name, eval, id)
+    return dataAccessor.add_evaluation_dao(name, eval, id)
 
 
 def select_member(id):

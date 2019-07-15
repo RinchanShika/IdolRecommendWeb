@@ -72,6 +72,7 @@ def add_evaluation_dao(name, eval, id):
         print(name)
         c.execute(update_sql)
         conn.commit()
+        return eval
 
 
 def find_member_name_by_id_dao(id):
