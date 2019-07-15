@@ -2,6 +2,7 @@ import sqlite3
 from contextlib import closing
 from app import MemberList
 import pandas as pd
+import numpy as np
 
 
 # データベース、テーブルを作成する
@@ -62,6 +63,8 @@ def add_evaluationRow_dao():
         c.execute('insert into evaluation default values')
         id = c.lastrowid
         conn.commit()
+        c.execute('select * from evaluation')
+        print(c.fetchall())
     return id
 
 
@@ -126,7 +129,6 @@ def any_sql():
 
 
 def insert_csv():
-    import pandas as pd
     df = pd.read_csv('C:/Users/yasug/Downloads/Untitled form (Responses) - Sheet4 (1).csv')
     columns_name = df.columns
     row_count = 33
@@ -153,41 +155,95 @@ def insert_csv():
                 conn.commit()
 
 
-def calc_similarity():
-    for i in range(csv_rows_count - 1):
-        target_sum_points = 0
-        comp_sum_points = 0
-        sum_multi_points = 0
-        target_sum_square_points = 0
-        comp_sum_square_point = 0
-        if csv_input.iloc[i, 0] != target_user:
-            comp_user = csv_input.iloc[i, 0]
-            print(comp_user)
-            comp_row = csv_input.iloc[i, 1:35]
-            comp_row_check = csv_input.iloc[i, 39:43]
-            s1 = pd.Series(target_row)
-            s2 = pd.Series(comp_row)
+def calc_similarity(id):
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        target_user_df = pd.read_sql_query('select * from evaluation where id = ' + str(id), conn)
+        target_user_org = target_user_df.iloc[0, 1:].values
+        print(target_user_org)
 
+        similarities = []
+        ids = []
+        compare_user_df = pd.read_sql_query('select * from evaluation', conn)
+        print(compare_user_df)
+        for i in range(len(compare_user_df)):
+            target_user = target_user_org
+            print('-----------------------------------')
+            print(i+1)
+            if i + 1 != int(id):
+                compare_user = compare_user_df.iloc[i, 1:].values
+                columns_count = len(target_user)
+                for j in range(columns_count):
+                    if target_user[j] is None or np.isnan(target_user[j]):
+                        target_user[j] = None
+                        compare_user[j] = None
+                    elif compare_user[j] is None or np.isnan(compare_user[j]):
+                        target_user[j] = None
+                        compare_user[j] = None
 
-            try:
+                target_user = [x for x in target_user if x is not None]
+                compare_user = [y for y in compare_user if y is not None]
+
+                s1 = pd.Series(target_user)
+                s2 = pd.Series(compare_user)
+
                 res = s1.astype('int').corr(s2.astype('int'))
-            except:
-                pass
-            if res > 0.50:
-                similarities.append(target_user + ':' + comp_user + '=' + str(res))
-                # for k in range(8):
-                #     print('T:' + str(target_row_check[k]) + 'C:' + str(comp_row_check[k]))
-                print('森みはる→T:' + str(target_row_check[0]) + 'C:' + str(comp_row_check[0]))
-            print(res)
+                if ~np.isnan(res):
+                    ids.append(i+1)
+                    similarities.append(res)
+        print('===========================')
+        result = dict(zip(ids, similarities))
+        result_sort = sorted(result.items(), key=lambda x: x[1], reverse=True)
+        print(result_sort)
+        print(result_sort[0])
+        print(result_sort[0][0])
+        similarity_df = pd.read_sql_query('select * from evaluation where id = ' + str(result_sort[0][0]) +
+                                            ' or id = ' + str(result_sort[1][0]) +
+                                            ' or id = ' + str(result_sort[2][0]), conn)
+        df = pd.concat([target_user_df, similarity_df])
+        print(df)
 
-    print(similarities)
+        names = []
+        points = []
+        for i in range(len(df.columns)):
+            if df.iloc[0, i] is None:
+                if df.iloc[1, i] is None:
+                    rec1 = 0
+                else:
+                    rec1 = int(df.iloc[1, i])
+                if df.iloc[2, i] is None:
+                    rec2 = 0
+                else:
+                    rec2 = int(df.iloc[2, i])
+                if df.iloc[3, i] is None:
+                    rec3 = 0
+                else:
+                    rec3 = int(df.iloc[3, i])
+                if rec1 + rec2 + rec3 >= 1:
+                    names.append(df.columns[i])
+                    rec1_points = rec1 * float(result_sort[0][1])
+                    rec2_points = rec2 * float(result_sort[1][1])
+                    rec3_points = rec3 * float(result_sort[2][1])
+                    points.append(rec1_points + rec2_points + rec3_points)
+        recommend = dict(zip(names, points))
+        recommend_sort = sorted(recommend.items(), key=lambda x: x[1], reverse=True)
+        print(recommend_sort)
+
+        recommend_list = []
+        count = 0
+        for item in recommend_sort:
+            recommend_list.append(item[0])
+            count = count + 1
+            if count >= 10:
+                break
+        print(recommend_list)
+        return recommend_list
 
 
 def show_evaluation_data():
     dbname = 'IdolRecommendWebDB'
     with closing(sqlite3.connect(dbname)) as conn:
         df = pd.read_sql_query('select * from evaluation', conn)
-        print(df)
         result_str = []
         df_columns_str = [str(n) for n in df.columns.tolist()]
         result_str.append(df_columns_str)

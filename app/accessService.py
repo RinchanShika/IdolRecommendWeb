@@ -20,3 +20,7 @@ def get_twitter(name):
 
 def show_evaluation():
     return dataAccessor.show_evaluation_data()
+
+
+def calc_similarity(id):
+    return dataAccessor.calc_similarity(id)

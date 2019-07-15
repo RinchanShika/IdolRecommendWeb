@@ -95,7 +95,13 @@ def putEvaluation():
 
 @app.route('/endEvaluation')
 def endEvaluation():
+    accessService.calc_similarity(session['id'])
     return render_template('likelist.html', title='Your OSHIMEN List')
+
+
+@app.route('/recommend')
+def rendering_recommend():
+    return render_template('recommendlist.html', title='Your OSHIMEN List')
 
 
 @app.route('/displaylikelist')
@@ -121,6 +127,23 @@ def display_like_list():
     return jsonify({'data': data})
 
 
+@app.route('/displayrecommendlist')
+def display_recommend_list():
+    recommend_list = accessService.calc_similarity(session['id'])
+    recommend_list_twitter = []
+    recommend_list_group = []
+    for member in recommend_list:
+        result_set = accessService.get_twitter(member)
+        recommend_list_group.append((result_set[0]))
+        recommend_list_twitter.append(result_set[1])
+    data = {
+        "like_list": recommend_list,
+        "like_list_twitter": recommend_list_twitter,
+        "like_list_group": recommend_list_group
+    }
+    return jsonify({'data': data})
+
+
 @app.route('/admin')
 def admin():
     return render_template('admin.html', title='admin page')
@@ -134,8 +157,6 @@ def evaluationdata():
 @app.route('/showevaluation')
 def show_evaluation():
     result = accessService.show_evaluation()
-    print(result[0])
-    print(result[0][0])
     data = {
         "data": result
     }
