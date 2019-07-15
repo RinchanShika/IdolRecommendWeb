@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51d22333-ae72-4a39-b8ce-f15d86ba4593" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/static/js/displayRecommendList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/templates/recommendlist.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/IdolRecommendWebDB" beforeDir="false" afterPath="$PROJECT_DIR$/app/IdolRecommendWebDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/accessService.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/accessService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/dataAccessor.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/dataAccessor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/likelist.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/likelist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -420,13 +412,6 @@
       <option name="presentableId" value="Default" />
       <updated>1562241867486</updated>
     </task>
-    <task id="LOCAL-00019" summary="henko">
-      <created>1562419078387</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1562419078387</updated>
-    </task>
     <task id="LOCAL-00020" summary="henko">
       <created>1562419331082</created>
       <option name="number" value="00020" />
@@ -763,12 +748,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563209277817</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="recommend">
+      <created>1563220988278</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1563220988278</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.1957672" side_tool="true" weight="0.23039612" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.6137566" visible="true" weight="0.23201293" />
@@ -813,7 +804,6 @@
     </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ugoiteyo" />
     <MESSAGE value="ajax通信に成功" />
     <MESSAGE value="へんこう" />
     <MESSAGE value="いいかんじ" />
@@ -838,7 +828,8 @@
     <MESSAGE value="lg" />
     <MESSAGE value="session memberlist" />
     <MESSAGE value="adminpage" />
-    <option name="LAST_COMMIT_MESSAGE" value="adminpage" />
+    <MESSAGE value="recommend" />
+    <option name="LAST_COMMIT_MESSAGE" value="recommend" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
