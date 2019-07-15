@@ -1,6 +1,7 @@
 import sqlite3
 from contextlib import closing
 from app import MemberList
+import pandas as pd
 
 
 # データベース、テーブルを作成する
@@ -137,7 +138,6 @@ def insert_csv():
 
         for i in range(row_count):
             df_row = df.iloc[i, :].values
-            print(df_row)
             c.execute('insert into evaluation default values')
             id = c.lastrowid
             for j in range(len(columns_name)):
@@ -149,7 +149,6 @@ def insert_csv():
                 if columns_name[j] == '松下玲緒奈':
                     name = '松下玲緒菜'
                 update_sql = 'update evaluation set ' + str(name) + ' = ' + str(df_row[j]) + ' where id = ' + str(id)
-                print(update_sql)
                 c.execute(update_sql)
                 conn.commit()
 
@@ -184,4 +183,16 @@ def calc_similarity():
     print(similarities)
 
 
-add_twitter()
+def show_evaluation_data():
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        df = pd.read_sql_query('select * from evaluation', conn)
+        print(df)
+        result_str = []
+        df_columns_str = [str(n) for n in df.columns.tolist()]
+        result_str.append(df_columns_str)
+        for i in range(len(df)):
+            result_numpy = df.iloc[i, :].values
+            result = [str(n) for n in result_numpy]
+            result_str.append(result)
+    return result_str

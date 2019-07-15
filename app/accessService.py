@@ -16,3 +16,7 @@ def select_member(id):
 
 def get_twitter(name):
     return dataAccessor.get_twitter(name)
+
+
+def show_evaluation():
+    return dataAccessor.show_evaluation_data()

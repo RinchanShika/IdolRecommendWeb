@@ -131,6 +131,17 @@ def evaluationdata():
     return render_template('evaluationdata.html', title='admin page')
 
 
+@app.route('/showevaluation')
+def show_evaluation():
+    result = accessService.show_evaluation()
+    print(result[0])
+    print(result[0][0])
+    data = {
+        "data": result
+    }
+    return jsonify(data)
+
+
 # おまじない
 if __name__ == "__main__":
     app.run(debug=True)
