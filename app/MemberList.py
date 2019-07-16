@@ -26,7 +26,8 @@ taskhavefun = ['Task have Fun', '熊澤風花', '白岡今日花', '里仲菜月
 taskhavefun_twitter = ['TaskhaveFun', 'Task_fuuka', 'Task_kyouka', 'Task_Natsuki']
 nanarando = ['ナナランド', '大場はるか', '小日向麻衣', '峰島こまき', '雪村花鈴', '安藤ゆきね', '笹原琴音', '西嶋菜々子']
 nanarando_twitter = ['7land_official', 'Haruka_7land', 'mai_7land', 'komaki_7land', 'karin_7land', 'yukine_7land', 'kotone_7land', 'nanaco_7land']
-
+magicalpunchline = ['マジカル・パンチライン', '清水ひまわり', '吉澤悠華', '浅野杏奈', '小山リーナ', '吉田優良里', '沖口優奈']
+magicalpunchline_twitter = ['MAGiPUNofficial', 'HimaShimizu_Box', 'Haru_Yoshizawa', 'Anna_Asano_Box', 'Koyama_Rina_Box', 'Yurari_Yoshida', 'YunaOkiguchiBox']
 
 groupList = [
     nijurokujinomasukareido,
