@@ -43,6 +43,7 @@ groupList = [
     taskhavefun,
     festive,
     nanarando,
+    magicalpunchline
 ]
 
 groupTwitterList = [
@@ -58,5 +59,6 @@ groupTwitterList = [
     nijinokonkisutadoru_twitter,
     taskhavefun_twitter,
     festive_twitter,
-    nanarando_twitter
+    nanarando_twitter,
+    magicalpunchline_twitter
 ]
