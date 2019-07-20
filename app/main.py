@@ -189,7 +189,7 @@ def add_idol():
         member = [name, group_name, twitter_id, instagram_id, filename]
         succsess = accessService.add_member(member)
 
-        return render_template('addidolcomfirm.html', img_url=img_url, name=name, group_name=group_name,
+        return render_template('addIdolcomfirm.html', img_url=img_url, name=name, group_name=group_name,
                                twitter_id=twitter_id, instagram_id=instagram_id)
     else:
         return render_template('addIdol.html', title='add idol')
