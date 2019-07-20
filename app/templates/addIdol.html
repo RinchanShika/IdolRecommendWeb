@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+<br class = "content">
+    <h1>*********</h1>
+    <form method="post" action="/addidol" enctype="multipart/form-data">
+        <table border="1">
+    <tr><th>名前</th><td><input type="text" name="name"></td></tr>
+    <tr><th>グループ名</th><td><input type="text" name="group_name"></td></tr>
+    <tr><th>TwitterID(@以下)</th><td><input type="text" name="twitter_id"></td></tr>
+    <tr><th>InstagramID(@以下)</th><td><input type="text" name="instagram_id"></td></tr>
+            <tr><th>顔写真</br>
+            （1人で写っているもの）</th><td><input type="file" id="img_file" name="img_file" class="col-sm-4"></td></tr>
+        </table>
+        <input type="submit" value="登録" class="btn">
+    </form>
+
+    {% if error_message %}
+        <p>{{ error_message}}</p>
+    {% endif %}
+</div>
+{% endblock %}

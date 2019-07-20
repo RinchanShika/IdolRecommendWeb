@@ -1,13 +1,19 @@
-from flask import Flask, render_template, jsonify, session, request
+from flask import Flask, render_template, jsonify, session, request, url_for, redirect
+import werkzeug
 from app import accessService
 import random
 import glob
 import copy
+import os
 
 
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 app.secret_key = 'auhgushfuwe'
+UPLOAD_FOLDER = './static/etcimg/'
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['MAX_CONTENT_LENGTH'] = 10 * 1024 * 1024
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'gif'])
 
 
 @app.route('/')
@@ -19,7 +25,6 @@ def top_page():
 def start():
     if 'id' not in session:
         id = accessService.add_evaluationRow()
-        print(str(id))
         session['id'] = id
     member_list = []
     session['member_list'] = member_list
@@ -68,18 +73,13 @@ def get_first_list():
 def putEvaluation():
     member_list = session['member_list']
     like_members = session['like_members']
-    print(member_list)
-    print(like_members)
     member_count = len(member_list)
-    print(member_count)
     data = request.get_json()
     put_eval = data['eval']
     put_name = data['name']
     eval_points = accessService.add_evaluation(put_name, put_eval, session['id'])
-    print(str(eval_points))
     if eval_points == 1:
         like_members.append(put_name)
-        print(like_members)
     num = random.randint(1, member_count)
     name = member_list.pop(num - 1)
     file_name = name + ' (1).jpg'
@@ -161,6 +161,69 @@ def show_evaluation():
         "data": result
     }
     return jsonify(data)
+
+
+@app.route('/addidol', methods=['GET', 'POST'])
+def add_idol():
+    if request.method == 'POST':
+        img_file = request.files['img_file']
+        if img_file.filename == '':
+            error_message = '顔写真は必須です。'
+            return render_template('addIdol.html', title='add idol', error_message=error_message)
+
+        if img_file and allowed_file(img_file.filename):
+            filename = werkzeug.utils.secure_filename(img_file.filename)
+            img_url = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            img_file.save(img_url)
+
+        name = request.form['name']
+        group_name = request.form['group_name']
+        twitter_id = request.form['twitter_id']
+        instagram_id = request.form['instagram_id']
+
+        check_member = [name, group_name]
+        if accessService.check_member(check_member) is True:
+            error_message = name + '/' + group_name + ' は既に登録されています。'
+            return render_template('addIdol.html', title='add idol', error_message=error_message)
+
+        member = [name, group_name, twitter_id, instagram_id, filename]
+        succsess = accessService.add_member(member)
+
+        return render_template('addidolcomfirm.html', img_url=img_url, name=name, group_name=group_name,
+                               twitter_id=twitter_id, instagram_id=instagram_id)
+    else:
+        return render_template('addIdol.html', title='add idol')
+
+
+def allowed_file(filename):
+    return '.' in filename and \
+        filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
+
+
+@app.route('/addlist')
+def addlist():
+    return render_template('addList.html', title='addList')
+
+
+@app.route('/displayaddlist')
+def show_ad_list():
+    add_members = accessService.get_addmember()
+    data = {
+        "data": add_members
+    }
+    return jsonify(data)
+
+
+@app.route('/aprovalAddIdol/<int:id>')
+def aproval_idol(id):
+    accessService.aproval(id)
+    return redirect('/addlist')
+
+
+@app.route('/disaprovalAddIdol/<int:id>')
+def disaproval_idol(id):
+    accessService.disaproval(id)
+    return redirect('/addlist')
 
 
 # おまじない

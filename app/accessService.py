@@ -24,3 +24,21 @@ def show_evaluation():
 
 def calc_similarity(id):
     return dataAccessor.calc_similarity(id)
+
+def add_member(member):
+    return dataAccessor.add_addmember(member)
+
+
+def check_member(check_member):
+    return dataAccessor.find_member_by_name_and_group_name(check_member)
+
+
+def get_addmember():
+    return dataAccessor.get_addmember()
+
+
+def aproval(id):
+    return dataAccessor.aproval_member(id)
+
+def disaproval(id):
+    return dataAccessor.disaproval_member(id)

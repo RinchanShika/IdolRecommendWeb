@@ -3,7 +3,8 @@ from contextlib import closing
 from app import MemberList
 import pandas as pd
 import numpy as np
-
+import os
+import shutil
 
 # データベース、テーブルを作成する
 def create_table():
@@ -120,12 +121,6 @@ def add_twitter():
         conn.commit()
         c.execute('select * from member')
         print(c.fetchall())
-
-
-def any_sql():
-    dbname = 'IdolRecommendWebDB'
-    with closing(sqlite3.connect(dbname)) as conn:
-        c = conn.cursor()
 
 
 def insert_csv():
@@ -252,3 +247,93 @@ def show_evaluation_data():
             result = [str(n) for n in result_numpy]
             result_str.append(result)
     return result_str
+
+
+def create_addmember_table():
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        # テーブル削除
+        c.execute('drop table if exists addmember')
+        # テーブル作成
+        create_member_table = '''create table if not exists addmember(id integer primary key autoincrement, name text, 
+        group_name text, twitter_id text, instagram_id text,img_name text)'''
+        c.execute(create_member_table)
+        conn.commit()
+
+
+def add_addmember(member):
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        insert_member_sql = '''insert into addmember(name,group_name,twitter_id,instagram_id,img_name) values(?,?,?,?,?)'''
+        c.execute(insert_member_sql, (member[0], member[1], member[2], member[3], member[4],))
+        conn.commit()
+
+        c.execute('select * from addmember')
+        print(c.fetchall())
+
+
+def find_member_by_name_and_group_name(check_member):
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        check_added_member = '''select * from member where name = ? and group_name = ?'''
+        c.execute(check_added_member, (check_member[0], check_member[1]))
+
+        result = c.fetchall()
+        print(result)
+        print(len(result))
+        if len(result) == 0:
+            return False
+        else:
+            return True
+
+
+def get_addmember():
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        get_member = '''select * from addmember'''
+        c.execute(get_member)
+        result = c.fetchall()
+        return result
+
+
+def aproval_member(id):
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        get_member = '''select name,group_name,twitter_id,instagram_id,img_name from addmember where id = ?'''
+        c.execute(get_member, (id,))
+        result = c.fetchall()[0]
+
+        insert_member_sql = '''insert into member(name,group_name,twitter_id,instagram_id) values(?,?,?,?)'''
+        c.execute(insert_member_sql, (result[0], result[1], result[2], result[3]))
+
+        dir_name = './static/img/' + result[0]
+        os.makedirs(dir_name, exist_ok=True)
+        img_filename = './static/etcimg/' + result[4]
+        new_img_filename = dir_name + '/' + result[0] + ' (1).jpg'
+        shutil.copyfile(img_filename, new_img_filename)
+
+        c.execute(' alter table evaluation add column ' + result[0] + ' [ int]')
+        c.execute('delete from addmember where id = ?', (id, ))
+        conn.commit()
+
+
+def disaproval_member(id):
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        c.execute('delete from addmember where id = ?',(id, ))
+        conn.commit()
+
+
+def any_sql():
+    dbname = 'IdolRecommendWebDB'
+    with closing(sqlite3.connect(dbname)) as conn:
+        c = conn.cursor()
+        c.execute('delete from member where name = 柊宇咲')
+
+

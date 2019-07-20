@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class = "content">
+    <h1>*********</h1>
+    <table border="1">
+    <tr><th>名前</th><td>{{ name }}</td></tr>
+    <tr><th>グループ名</th><td>{{ group_name }}</td></tr>
+    {% if twitter_id %}
+        <tr><th>Twitter</th><td> {{ twitter_id }}</td></tr>
+    {% endif %}
+    {% if instagram_id %}
+        <tr><th>Instagram</th><td> {{ instagram_id }}</td></tr>
+    {% endif %}
+
+    {% if img_url %}
+        <tr><th></th><td><img id="thumbnail" src="{{ img_url }}"></td></tr>
+    {% endif %}
+        </table>
+
+    以上の内容で登録しました。</br>
+    （承認・反映までしばらくお待ちください。）
+</div>
+{% endblock %}
