@@ -6,6 +6,7 @@ import numpy as np
 import os
 import shutil
 
+
 # データベース、テーブルを作成する
 def create_table():
     dbname = 'IdolRecommendWebDB'
